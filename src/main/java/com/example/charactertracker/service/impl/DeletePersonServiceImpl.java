@@ -1,11 +1,10 @@
-package service.impl;
+package com.example.charactertracker.service.impl;
 
-import entity.Person;
+import com.example.charactertracker.service.IDeletePersonService;
+import com.example.charactertracker.entity.Person;
 import lombok.RequiredArgsConstructor;
-import mapper.IPersonMapper;
 import org.springframework.stereotype.Service;
-import repository.IPersonRepository;
-import service.IDeletePersonService;
+import com.example.charactertracker.repository.IPersonRepository;
 
 import java.util.UUID;
 

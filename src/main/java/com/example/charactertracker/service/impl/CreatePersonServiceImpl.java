@@ -1,11 +1,11 @@
-package service.impl;
+package com.example.charactertracker.service.impl;
 
-import dto.PersonDTO;
+import com.example.charactertracker.dto.PersonDTO;
 import lombok.RequiredArgsConstructor;
-import mapper.IPersonMapper;
+import com.example.charactertracker.mapper.IPersonMapper;
 import org.springframework.stereotype.Service;
-import repository.IPersonRepository;
-import service.ICreatePersonService;
+import com.example.charactertracker.repository.IPersonRepository;
+import com.example.charactertracker.service.ICreatePersonService;
 
 @RequiredArgsConstructor
 @Service

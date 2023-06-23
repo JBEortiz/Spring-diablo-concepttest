@@ -1,13 +1,11 @@
-package controller;
+package com.example.charactertracker.controller;
 
-import dto.PersonDTO;
+import com.example.charactertracker.dto.PersonDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.IGetByIdPersonService;
-
-import java.util.UUID;
+import com.example.charactertracker.service.IGetByIdPersonService;
 
 @RequiredArgsConstructor
 @RestController

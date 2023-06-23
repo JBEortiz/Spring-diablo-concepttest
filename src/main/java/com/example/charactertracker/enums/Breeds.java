@@ -1,4 +1,4 @@
-package repository;
+package com.example.charactertracker.enums;
 
 public enum Breeds {
     BARBARIAN,

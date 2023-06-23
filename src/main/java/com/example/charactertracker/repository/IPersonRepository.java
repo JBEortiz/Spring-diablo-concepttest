@@ -1,8 +1,7 @@
-package repository;
+package com.example.charactertracker.repository;
 
-import entity.Person;
+import com.example.charactertracker.entity.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
 import java.util.UUID;
 

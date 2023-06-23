@@ -1,6 +1,6 @@
-package service;
+package com.example.charactertracker.service;
 
-import dto.PersonDTO;
+import com.example.charactertracker.dto.PersonDTO;
 
 public interface ICreatePersonService {
     public PersonDTO createPerson(PersonDTO personDTO);

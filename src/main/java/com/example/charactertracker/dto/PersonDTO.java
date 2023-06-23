@@ -1,7 +1,7 @@
-package dto;
+package com.example.charactertracker.dto;
 
 import lombok.*;
-import repository.Breeds;
+import com.example.charactertracker.enums.Breeds;
 
 @Getter
 @Setter
