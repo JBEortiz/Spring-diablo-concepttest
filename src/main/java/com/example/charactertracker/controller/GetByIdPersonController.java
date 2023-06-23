@@ -13,7 +13,7 @@ import com.example.charactertracker.service.IGetByIdPersonService;
 public class GetByIdPersonController {
     private final IGetByIdPersonService getByIdPersonService;
 
-    @GetMapping("/getById")
+    @GetMapping("/{id}")
     public ResponseEntity<PersonDTO> getById(@PathVariable String id) {
         return new ResponseEntity<>(getByIdPersonService.getByIdPerson(id), HttpStatus.OK);
     }

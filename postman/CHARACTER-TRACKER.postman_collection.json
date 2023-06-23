@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "bd837cb3-897b-4b27-8c43-3f6f257fb331",
+		"name": "CHARACTER-TRACKER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10768157"
+	},
+	"item": [
+		{
+			"name": "Create character and get",
+			"item": [
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \r\n  \"name\": \"John Doe\",\r\n  \"inventoryId\":null,\r\n  \"level\": 10,\r\n  \"lifePoints\": 100,\r\n  \"skillPoints\": 50,\r\n  \"breeds\": \"BARBARIAN\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/person/create",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"person",
+								"create"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/person/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"person",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "f8bee561-d31d-4846-9adc-ae31e30e68f3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/person/getAll",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"person",
+								"getAll"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "deleted",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/person/delete/?id=f8bee561-d31d-4846-9adc-ae31e30e68f3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person",
+						"delete",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "f8bee561-d31d-4846-9adc-ae31e30e68f3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
