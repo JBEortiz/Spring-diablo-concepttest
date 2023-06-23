@@ -1,8 +1,8 @@
-package mapper;
+package com.example.charactertracker.mapper;
 
-import dto.PersonDTO;
-import entity.Person;
-import org.hibernate.cache.spi.support.AbstractReadWriteAccess;
+
+import com.example.charactertracker.dto.PersonDTO;
+import com.example.charactertracker.entity.Person;
 import org.mapstruct.Mapper;
 
 import java.util.List;

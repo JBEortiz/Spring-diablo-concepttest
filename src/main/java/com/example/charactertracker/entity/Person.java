@@ -1,8 +1,8 @@
-package entity;
+package com.example.charactertracker.entity;
 
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
-import repository.Breeds;
+import com.example.charactertracker.enums.Breeds;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
