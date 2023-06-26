@@ -1,4 +1,4 @@
-package com.example.charactertracker.enums;
+package com.micro.charactertracker.enums;
 
 public enum Breeds {
     BARBARIAN,

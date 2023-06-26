@@ -1,8 +1,8 @@
-package com.example.charactertracker.entity;
+package com.micro.charactertracker.entity;
 
+import com.micro.charactertracker.enums.Breeds;
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
-import com.example.charactertracker.enums.Breeds;
 
 import javax.persistence.*;
 import java.util.UUID;

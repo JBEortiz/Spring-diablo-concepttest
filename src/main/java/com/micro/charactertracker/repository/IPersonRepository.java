@@ -1,6 +1,6 @@
-package com.example.charactertracker.repository;
+package com.micro.charactertracker.repository;
 
-import com.example.charactertracker.entity.Person;
+import com.micro.charactertracker.entity.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

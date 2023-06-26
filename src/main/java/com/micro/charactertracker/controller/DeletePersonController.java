@@ -1,11 +1,11 @@
-package com.example.charactertracker.controller;
+package com.micro.charactertracker.controller;
 
+import com.micro.charactertracker.service.IDeletePersonService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.example.charactertracker.service.IDeletePersonService;
 
 @RequiredArgsConstructor
 @RestController

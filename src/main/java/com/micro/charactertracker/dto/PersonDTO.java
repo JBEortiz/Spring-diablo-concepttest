@@ -1,7 +1,7 @@
-package com.example.charactertracker.dto;
+package com.micro.charactertracker.dto;
 
 import lombok.*;
-import com.example.charactertracker.enums.Breeds;
+import com.micro.charactertracker.enums.Breeds;
 
 @Getter
 @Setter

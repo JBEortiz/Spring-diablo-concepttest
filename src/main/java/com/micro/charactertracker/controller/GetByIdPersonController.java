@@ -1,11 +1,11 @@
-package com.example.charactertracker.controller;
+package com.micro.charactertracker.controller;
 
-import com.example.charactertracker.dto.PersonDTO;
+import com.micro.charactertracker.dto.PersonDTO;
+import com.micro.charactertracker.service.IGetByIdPersonService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.example.charactertracker.service.IGetByIdPersonService;
 
 @RequiredArgsConstructor
 @RestController

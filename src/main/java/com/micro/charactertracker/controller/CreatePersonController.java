@@ -1,6 +1,7 @@
-package com.example.charactertracker.controller;
-import com.example.charactertracker.dto.PersonDTO;
+package com.micro.charactertracker.controller;
+import com.micro.charactertracker.dto.PersonDTO;
 
+import com.micro.charactertracker.service.ICreatePersonService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -8,7 +9,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.example.charactertracker.service.ICreatePersonService;
 
 
 @RequiredArgsConstructor

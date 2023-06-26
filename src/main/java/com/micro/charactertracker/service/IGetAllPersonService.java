@@ -1,6 +1,6 @@
-package com.example.charactertracker.service;
+package com.micro.charactertracker.service;
 
-import com.example.charactertracker.dto.PersonDTO;
+import com.micro.charactertracker.dto.PersonDTO;
 
 import java.util.List;
 
