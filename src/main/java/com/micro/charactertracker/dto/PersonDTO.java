@@ -7,7 +7,7 @@ import com.micro.charactertracker.enums.Breeds;
 @Setter
 public class PersonDTO {
 
-    private String id;
+    private Long idPerson;
     private String inventoryId;
     private String name;
     private Integer level;

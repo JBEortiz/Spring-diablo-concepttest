@@ -13,8 +13,8 @@ import java.util.UUID;
 public class DeletePersonServiceImpl implements IDeletePersonService {
     private final IPersonRepository personRepository;
     @Override
-    public void deletePerson(String idPerson) {
-        Person person = personRepository.getReferenceById(UUID.fromString(idPerson));
+    public void deletePerson(Long idPerson) {
+        Person person = personRepository.getReferenceById(idPerson);
         personRepository.delete(person);
     }
 }

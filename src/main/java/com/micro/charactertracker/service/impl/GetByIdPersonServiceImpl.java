@@ -7,7 +7,6 @@ import lombok.RequiredArgsConstructor;
 import com.micro.charactertracker.mapper.IPersonMapper;
 import org.springframework.stereotype.Service;
 
-import java.util.UUID;
 
 @RequiredArgsConstructor
 @Service
@@ -17,9 +16,8 @@ public class GetByIdPersonServiceImpl implements IGetByIdPersonService {
 
 
     @Override
-    public PersonDTO getByIdPerson(String idPerson) {
-        return personMapper.
-                toDto(personRepository.getReferenceById(
-                                UUID.fromString(idPerson)));
+    public PersonDTO getByIdPerson(Long idPerson) {
+        return personMapper.toDto(
+                personRepository.getReferenceById(idPerson));
     }
 }

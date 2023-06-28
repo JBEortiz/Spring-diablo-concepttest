@@ -14,7 +14,7 @@ public class DeletePersonController {
     private final IDeletePersonService deletePersonService;
 
     @DeleteMapping("/delete/{id}")
-    public void deleteById(@PathVariable String idPerson) {
+    public void deleteById(@PathVariable Long idPerson) {
         deletePersonService.deletePerson(idPerson);
     }
 }
