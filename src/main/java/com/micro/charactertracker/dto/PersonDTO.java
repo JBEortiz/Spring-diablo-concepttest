@@ -1,13 +1,13 @@
-package com.example.charactertracker.dto;
+package com.micro.charactertracker.dto;
 
 import lombok.*;
-import com.example.charactertracker.enums.Breeds;
+import com.micro.charactertracker.enums.Breeds;
 
 @Getter
 @Setter
 public class PersonDTO {
 
-    private String id;
+    private Long idPerson;
     private String inventoryId;
     private String name;
     private Integer level;

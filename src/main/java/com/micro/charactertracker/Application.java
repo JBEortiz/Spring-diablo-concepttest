@@ -1,4 +1,4 @@
-package com.example.charactertracker;
+package com.micro.charactertracker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

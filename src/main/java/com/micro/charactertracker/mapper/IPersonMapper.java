@@ -1,8 +1,8 @@
-package com.example.charactertracker.mapper;
+package com.micro.charactertracker.mapper;
 
 
-import com.example.charactertracker.dto.PersonDTO;
-import com.example.charactertracker.entity.Person;
+import com.micro.charactertracker.dto.PersonDTO;
+import com.micro.charactertracker.entity.Person;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

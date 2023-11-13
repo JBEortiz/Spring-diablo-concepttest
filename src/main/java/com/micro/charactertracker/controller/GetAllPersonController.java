@@ -1,12 +1,11 @@
-package com.example.charactertracker.controller;
+package com.micro.charactertracker.controller;
 
-import com.example.charactertracker.dto.PersonDTO;
+import com.micro.charactertracker.dto.PersonDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.example.charactertracker.service.IGetAllPersonService;
+import com.micro.charactertracker.service.IGetAllPersonService;
 
 import java.util.List;
 

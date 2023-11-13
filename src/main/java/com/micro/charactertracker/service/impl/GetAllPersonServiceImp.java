@@ -1,11 +1,11 @@
-package com.example.charactertracker.service.impl;
+package com.micro.charactertracker.service.impl;
 
-import com.example.charactertracker.service.IGetAllPersonService;
-import com.example.charactertracker.dto.PersonDTO;
+import com.micro.charactertracker.service.IGetAllPersonService;
+import com.micro.charactertracker.dto.PersonDTO;
+import com.micro.charactertracker.mapper.IPersonMapper;
+import com.micro.charactertracker.repository.IPersonRepository;
 import lombok.RequiredArgsConstructor;
-import com.example.charactertracker.mapper.IPersonMapper;
 import org.springframework.stereotype.Service;
-import com.example.charactertracker.repository.IPersonRepository;
 
 import java.util.List;
 @RequiredArgsConstructor
