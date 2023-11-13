@@ -3,9 +3,9 @@ spring:
     jpa.repositories.enabled: true
   datasource:
     driverClassName: org.postgresql.Driver
-    url: jdbc:postgresql://dumbo.db.elephantsql.com/nmoushxu?sslmode=require
-    username: nmoushxu
-    password: LMCRh4J-kte9zLgPHFoDdG6bprs5-D83
+    url: jdbc:postgresql://dumbo.db.elephantsql.com/ispwjyfn?sslmode=require
+    username: ispwjyfn
+    password: 6e0vs2OMXmQPE2eD1fUxpcndLEQK1MSp
   jpa:
     hibernate:
       ddl-auto: update
